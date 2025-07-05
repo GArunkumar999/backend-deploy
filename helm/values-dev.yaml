@@ -3,3 +3,4 @@ configmap:
 deployment:
   imageURL: 435238037339.dkr.ecr.us-east-1.amazonaws.com/expense/backend
   version: IMAGE_VERSION
+  replicas: 2
